@@ -1,22 +1,59 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Responsive Navbars</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <nav>
-      <a href="#Home">Home</a>
+    <header class="gap">
+      <h1>Responsive Navbars</h1>
+    </header>
+
+    <!--   NAV ONE -->
+    <nav class="nav-one gap">
+      <a class="nav-one-item" id="home" href="#Home">Home</a>
       <ul>
-        <li class="nav-item"><a href="#Home">Learn More</a></li>
-        <li class="nav-item"><a href="#Home">About</a></li>
-        <li class="nav-item"><a href="#Home">Contact</a></li>
+        <li class="nav-one-item" id="learnMore">
+          <a href="#learnMore">Learn More</a>
+        </li>
+        <li class="nav-one-item" id="about"><a href="#about">About</a></li>
+        <li class="nav-one-item" id="contact">
+          <a href="#contact">Contact</a>
+        </li>
       </ul>
-      <a href="#Home">Sign Up</a>
+      <a class="nav-one-item" id="signUp" href="#signUp">Sign Up</a>
     </nav>
-    <h1>Media Queries</h1>
+
+    <!--   NAV TWO -->
+    <nav class="nav-two gap">
+      <a class="nav-two-item" id="home" href="/">Home</a>
+      <ul>
+        <li class="nav-two-item" id="learnMore">
+          <a href="#learnMore">Learn More</a>
+        </li>
+        <li class="nav-two-item" id="about"><a href="#about">About</a></li>
+        <li class="nav-two-item" id="contact">
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <a class="nav-two-item" id="signUp" href="#signUp">Sign Up</a>
+    </nav>
+    <!--   NAV THREE -->
+    <nav class="nav-three gap">
+      <a class="nav-three-item" id="home" href="/">Home</a>
+      <ul>
+        <li class="nav-three-item" id="learnMore">
+          <a href="#learnMore">Learn More</a>
+        </li>
+        <li class="nav-three-item" id="about"><a href="#about">About</a></li>
+        <li class="nav-two-item" id="contact">
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <a class="nav-three-item" id="signUp" href="#signUp">Sign Up</a>
+    </nav>
   </body>
 </html>
