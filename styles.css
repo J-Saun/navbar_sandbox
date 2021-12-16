@@ -13,7 +13,7 @@ header {
 }
 h1 {
   color: rgb(0, 0, 0);
-  letter-spacing: 0.3em;
+  letter-spacing: 0.2em;
   padding: 0.3em;
   display: inline;
 }
@@ -45,7 +45,9 @@ a:active {
 .gap {
   margin-bottom: 1em;
 }
-
+.my-links {
+  margin: 1em 0;
+}
 /* NAV ONE */
 .nav-one {
   font-size: 1.5em;
